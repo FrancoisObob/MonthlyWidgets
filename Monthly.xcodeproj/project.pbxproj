@@ -11,7 +11,39 @@
 		0F78FE852BE01095000639F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78FE842BE01095000639F2 /* ContentView.swift */; };
 		0F78FE872BE01098000639F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F78FE862BE01098000639F2 /* Assets.xcassets */; };
 		0F78FE8A2BE01098000639F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F78FE892BE01098000639F2 /* Preview Assets.xcassets */; };
+		0F78FE972BE010B7000639F2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F78FE962BE010B7000639F2 /* WidgetKit.framework */; };
+		0F78FE992BE010B7000639F2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F78FE982BE010B7000639F2 /* SwiftUI.framework */; };
+		0F78FE9C2BE010B7000639F2 /* MonthlyWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78FE9B2BE010B7000639F2 /* MonthlyWidgetBundle.swift */; };
+		0F78FE9E2BE010B7000639F2 /* MonthlyWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78FE9D2BE010B7000639F2 /* MonthlyWidgetLiveActivity.swift */; };
+		0F78FEA02BE010B7000639F2 /* MonthlyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78FE9F2BE010B7000639F2 /* MonthlyWidget.swift */; };
+		0F78FEA22BE010B9000639F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F78FEA12BE010B9000639F2 /* Assets.xcassets */; };
+		0F78FEA62BE010B9000639F2 /* MonthlyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0F78FE942BE010B7000639F2 /* MonthlyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0F78FEAD2BE01A09000639F2 /* MonthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F78FEAB2BE019F6000639F2 /* MonthConfig.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F78FEA42BE010B9000639F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F78FE772BE01095000639F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F78FE932BE010B7000639F2;
+			remoteInfo = MonthlyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F78FEAA2BE010B9000639F2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0F78FEA62BE010B9000639F2 /* MonthlyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0F78FE7F2BE01095000639F2 /* Monthly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monthly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +51,17 @@
 		0F78FE842BE01095000639F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0F78FE862BE01098000639F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F78FE892BE01098000639F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F78FE942BE010B7000639F2 /* MonthlyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MonthlyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F78FE962BE010B7000639F2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0F78FE982BE010B7000639F2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0F78FE9B2BE010B7000639F2 /* MonthlyWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyWidgetBundle.swift; sourceTree = "<group>"; };
+		0F78FE9D2BE010B7000639F2 /* MonthlyWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		0F78FE9F2BE010B7000639F2 /* MonthlyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyWidget.swift; sourceTree = "<group>"; };
+		0F78FEA12BE010B9000639F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F78FEA32BE010B9000639F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F78FEAB2BE019F6000639F2 /* MonthConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthConfig.swift; sourceTree = "<group>"; };
+		0F7950BE2BEBED7A00E0A7B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0F7950BF2BEBF50000E0A7B5 /* Monthly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Monthly.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +72,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0F78FE912BE010B7000639F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F78FE992BE010B7000639F2 /* SwiftUI.framework in Frameworks */,
+				0F78FE972BE010B7000639F2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				0F78FE812BE01095000639F2 /* Monthly */,
+				0F78FE9A2BE010B7000639F2 /* MonthlyWidget */,
+				0F78FE952BE010B7000639F2 /* Frameworks */,
 				0F78FE802BE01095000639F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				0F78FE7F2BE01095000639F2 /* Monthly.app */,
+				0F78FE942BE010B7000639F2 /* MonthlyWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +106,8 @@
 		0F78FE812BE01095000639F2 /* Monthly */ = {
 			isa = PBXGroup;
 			children = (
+				0F7950BF2BEBF50000E0A7B5 /* Monthly.entitlements */,
+				0F7950BE2BEBED7A00E0A7B5 /* Info.plist */,
 				0F78FE822BE01095000639F2 /* MonthlyApp.swift */,
 				0F78FE842BE01095000639F2 /* ContentView.swift */,
 				0F78FE862BE01098000639F2 /* Assets.xcassets */,
@@ -67,6 +124,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0F78FE952BE010B7000639F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F78FE962BE010B7000639F2 /* WidgetKit.framework */,
+				0F78FE982BE010B7000639F2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F78FE9A2BE010B7000639F2 /* MonthlyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0F78FE9B2BE010B7000639F2 /* MonthlyWidgetBundle.swift */,
+				0F78FE9D2BE010B7000639F2 /* MonthlyWidgetLiveActivity.swift */,
+				0F78FE9F2BE010B7000639F2 /* MonthlyWidget.swift */,
+				0F78FEAB2BE019F6000639F2 /* MonthConfig.swift */,
+				0F78FEA12BE010B9000639F2 /* Assets.xcassets */,
+				0F78FEA32BE010B9000639F2 /* Info.plist */,
+			);
+			path = MonthlyWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +156,34 @@
 				0F78FE7B2BE01095000639F2 /* Sources */,
 				0F78FE7C2BE01095000639F2 /* Frameworks */,
 				0F78FE7D2BE01095000639F2 /* Resources */,
+				0F78FEAA2BE010B9000639F2 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0F78FEA52BE010B9000639F2 /* PBXTargetDependency */,
 			);
 			name = Monthly;
 			productName = Monthly;
 			productReference = 0F78FE7F2BE01095000639F2 /* Monthly.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0F78FE932BE010B7000639F2 /* MonthlyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F78FEA72BE010B9000639F2 /* Build configuration list for PBXNativeTarget "MonthlyWidgetExtension" */;
+			buildPhases = (
+				0F78FE902BE010B7000639F2 /* Sources */,
+				0F78FE912BE010B7000639F2 /* Frameworks */,
+				0F78FE922BE010B7000639F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonthlyWidgetExtension;
+			productName = MonthlyWidgetExtension;
+			productReference = 0F78FE942BE010B7000639F2 /* MonthlyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,9 +193,12 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					0F78FE7E2BE01095000639F2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0F78FE932BE010B7000639F2 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -116,6 +217,7 @@
 			projectRoot = "";
 			targets = (
 				0F78FE7E2BE01095000639F2 /* Monthly */,
+				0F78FE932BE010B7000639F2 /* MonthlyWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +229,14 @@
 			files = (
 				0F78FE8A2BE01098000639F2 /* Preview Assets.xcassets in Resources */,
 				0F78FE872BE01098000639F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F78FE922BE010B7000639F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F78FEA22BE010B9000639F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +252,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0F78FE902BE010B7000639F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F78FEAD2BE01A09000639F2 /* MonthConfig.swift in Sources */,
+				0F78FEA02BE010B7000639F2 /* MonthlyWidget.swift in Sources */,
+				0F78FE9E2BE010B7000639F2 /* MonthlyWidgetLiveActivity.swift in Sources */,
+				0F78FE9C2BE010B7000639F2 /* MonthlyWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F78FEA52BE010B9000639F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F78FE932BE010B7000639F2 /* MonthlyWidgetExtension */;
+			targetProxy = 0F78FEA42BE010B9000639F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0F78FE8B2BE01098000639F2 /* Debug */ = {
@@ -269,17 +398,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Monthly/Monthly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Monthly/Preview Content\"";
 				DEVELOPMENT_TEAM = A9HHA6352Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Monthly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,17 +430,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Monthly/Monthly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Monthly/Preview Content\"";
 				DEVELOPMENT_TEAM = A9HHA6352Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Monthly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +451,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.flambert.Monthly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F78FEA82BE010B9000639F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9HHA6352Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonthlyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MonthlyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flambert.Monthly.MonthlyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F78FEA92BE010B9000639F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A9HHA6352Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonthlyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MonthlyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flambert.Monthly.MonthlyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +528,15 @@
 			buildConfigurations = (
 				0F78FE8E2BE01098000639F2 /* Debug */,
 				0F78FE8F2BE01098000639F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F78FEA72BE010B9000639F2 /* Build configuration list for PBXNativeTarget "MonthlyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F78FEA82BE010B9000639F2 /* Debug */,
+				0F78FEA92BE010B9000639F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
